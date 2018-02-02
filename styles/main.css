@@ -1,0 +1,133 @@
+body{
+
+}
+
+header {
+background-color: rgb(198, 226,	255);
+background-image: url(images/bg-header-01.jpg);
+min-height: 90vh;
+background-repeat: no-repeat;
+background-position:top center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.header-content {
+  background-color: rgba(255,195, 195, 0.5);
+  padding: 3em;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+font-size: 3em;
+font-family: 'Montserrat', sans-serif;
+background-color: rgba(255, 195, 195, 0.5);
+padding: 1em;
+max-width: 320px;
+margin: 0 auto 42px auto;
+}
+
+.header-content h1 {
+  font-size: 2em;
+  background-color: transparent;
+  margin-bottom: 0.0000005px;
+}
+
+#bio {
+  background-color: rgb(216, 216,	216);
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  padding: 7em;
+}
+
+#comp {
+background-color: rgb(216, 216,	216);
+text-align: center;
+padding: 5em;
+font-family: 'Playfair Display', serif;
+}
+
+img {
+  width: 80%;
+}
+
+#comp h1 {
+  font-size: 3em;
+  padding: 1em;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(255, 195, 195, 0.5);
+}
+
+.comp-section-content {
+  display: flex;
+}
+
+.comp-content h2 {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+}
+
+#portfolio {
+  background-color: rgb(216, 216,	216);
+  text-align: center;
+  padding: 9em;
+  font-family: 'Playfair Display', serif;
+  min-height: 90vh;
+}
+
+#portfolio h1 {
+  font-size: 3em;
+  padding: 1em;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(255, 195, 195, 0.5);
+}
+
+
+.portfolio h2 {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio p {
+ margin: 13px auto 42px auto;
+}
+
+
+.portfolio-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.portfolio img {
+/*  width: 40%; */
+}
+
+footer {
+  background-color: rgb(216, 216,	216);
+  text-align: center;
+  padding: 9em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.adress {
+font-size: 1em;
+font-family: 'Archivo Black', sans-serif;
+}
+
+.social-links {
+  text-align: left;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.social-links li {
+  display: flex;
+  align-items: center;
+}
+
+.social-links img {
+  max-width: 60px;
+}
