@@ -3,14 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Session 10</title>
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
 
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/colorbox.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="scripts/jquery.lettering.js"></script>
+
+        <script src="scripts/jquery.colorbox-min.js"></script>
+
   </head>
   <body>
+
 
     <header>
       <div class="header-content">
@@ -44,6 +54,7 @@
                 </div>
 
 
+
               <div class="comp-content">
                 <img src="styles/bg-comp-02.jpg" alt="">
                 <h2>Photographie</h2>
@@ -67,39 +78,62 @@
               <div class="portfolio">
 
                   <div class="portfolio-content">
+                    <a class='gallery01' href='images/image-01.jpg'>
                     <img src="styles/bg-portfolio-06.jpg" alt="">
+                    </a>
                     <h2><a href="#">Photographie</a></h2>
                     <p>Le but de cette photographie est de faire un portrait en couleur sur un fond noir sans ombre.</p>
+                    <a class='gallery01' href='images/image-02.jpg'></a>
+                    <a class='gallery01' href='images/image-03.jpg'></a>
+                    <a class='gallery01' href='images/image-04.jpg'></a>
                   </div>
 
                   <div class="portfolio-content">
+                    <a class='gallery02' href='images/image-05.jpg'>
                     <img src="styles/bg-portfolio-02.jpg" alt="">
+                    </a>
                     <h2><a href="#">Edition</a></h2>
                     <p>Il fallait faire une double page à la manière de David Carson. En ayant choisi un mot choisi par une personne de notre classe il fallait imaginer comment on pouvait le transposer comme l'artiste.</p>
+                      <a class='gallery02' href='images/image-06.jpg'></a>
+                      <a class='gallery02' href='images/image-07.jpg'></a>
+                      <a class='gallery02' href='images/image-08.jpg'></a></p>
                   </div>
 
                   <div class="portfolio-content">
+                    <a class='gallery03' href='images/image-09.jpg'>
                     <img src="styles/bg-portfolio-03.jpg" alt="">
+                    </a>
                     <h2><a href="#">Rough</a></h2>
                     <p>En ayant réaliser un parfum sorti de notre imagination, il fallait réaliser une publicité en rough qui pouvait être réaliser en réalité.</p>
                   </div>
 
                   <div class="portfolio-content">
+                    <a class='gallery04' href='images/image-10.jpg'>
                     <img src="styles/bg-portfolio-04.jpg" alt="">
+                    </a>
                     <h2><a href="#">Illustration</a></h2>
                     <p>Dans l'univers de Bordeaux, faire en forme de bouteille de Coca-Cola une illustration qui décrirait cette ville.</p>
+                      <a class='gallery04' href='images/image-11.jpg'></a></p>
                   </div>
 
                   <div class="portfolio-content">
+                    <a class='gallery05' href='images/image-12.jpg'>
                     <img src="styles/bg-portfolio-05.jpg" alt="">
+                    </a>
                     <h2><a href="#">Identité Visuelle</a></h2>
                     <p>Pour le concours Bordeaux Tandance il fallait créer un design pour les trois couleurs du vin en jouississant un thème original.</p>
+                      <a class='gallery05' href='images/image-13.jpg'></a>
+                      <a class='gallery05' href='images/image-14.jpg'></a>
+                      <a class='gallery05' href='images/image-15.jpg'></a></p>
                   </div>
 
                   <div class="portfolio-content">
+                    <a class='gallery06' href='images/image-16.jpg'>
                     <img src="styles/bg-portfolio-01.jpg" alt="">
+                    </a>
                     <h2><a href="#">Typographie</a></h2>
                     <p>En choisissant un texte de 100 mots, faire une affiche qui décrit l'univers de notre texte.</p>
+                      <a class='gallery06' href='images/image-17.jpg'></a></p>
                   </div>
               </div>
             </section>
@@ -125,5 +159,27 @@
       </div>
 
     </footer>
+
+
+
+                    <script >
+                        $ ( document ). ready ( function () {
+                    $ ( " .fancy_title " ). lettering (); 	  });
+
+                    </script>
+
+                    <script>
+                        jQuery(document).ready(function () {
+                          jQuery('a.gallery01').colorbox({ opacity:0.5 , rel:'group1' });
+                          jQuery('a.gallery02').colorbox({ opacity:0.5 , rel:'group2' });
+                          jQuery('a.gallery03').colorbox({ opacity:0.5 , rel:'group3' });
+                          jQuery('a.gallery04').colorbox({ opacity:0.5 , rel:'group4' });
+                          jQuery('a.gallery05').colorbox({ opacity:0.5 , rel:'group5' });
+                          jQuery('a.gallery06').colorbox({ opacity:0.5 , rel:'group6' });
+                        });
+                    </script>
+
+
+
   </body>
 </html>

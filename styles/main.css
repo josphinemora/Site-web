@@ -93,9 +93,8 @@ img {
 }
 
 .portfolio p {
- margin: 13px auto 42px auto;
+ margin: 6px auto 15px auto;
 }
-
 
 .portfolio-content {
   max-width: 800px;
@@ -103,7 +102,8 @@ img {
 }
 
 .portfolio img {
-/*  width: 40%; */
+    width: 80%;
+    margin: 20px auto 10px auto;
 }
 
 footer {
